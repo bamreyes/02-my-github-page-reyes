@@ -117,4 +117,9 @@
     object-position: center;
     position: absolute;
     z-index: 2;
+    transition: transform 0.5s ease-in-out;
+}
+
+.me:hover {
+    transform: scale(1.05);
 }
