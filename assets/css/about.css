@@ -1,0 +1,120 @@
+#about {
+    overflow: hidden;
+}
+
+.about {
+    background: linear-gradient( 
+        var(--color-primary-blue) 0%, 
+        #88C5FF 30%, 
+        #88C5FF00
+    );
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    position: relative; 
+    z-index: 1;
+    gap: 6rem;
+    /* margin: 0 2rem; */
+}
+
+.ellipse-transition {
+    height: 40vh;
+    background-color: var(--color-primary-blue);
+    clip-path: ellipse(50% 100% at 50% 100%);
+    position: relative;
+    top: 1rem;
+    z-index: 0;
+    /* margin: 0 2rem;
+    width: calc(100% - 4rem); */
+}
+
+.about-title {
+    font-size: calc(var(--scale) * 4);
+    letter-spacing: calc(var(--scale) * 0.05);
+    color: white;
+    font-family: 'Imperial Script';
+    margin-top: -10rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+.about-text {
+    font-size: calc(var(--scale) * 2.5);
+    margin-top: -2rem;
+    padding: 0 6rem;
+}
+
+.about-bento {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 calc(var(--scale)*8);
+}
+
+.about-grid {
+    display: grid;
+    height: 70vh;
+    width: 100%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.grid-item {
+    background: #ffffff40;
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+    border: 0.05rem solid #ffffff66;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 2rem #1f268707;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.grid-item-1 {
+    grid-column: span 3;
+    grid-row: span 4;
+    overflow: visible;
+}
+
+.grid-item-2 {
+    grid-column: span 4;
+    grid-row: span 2;
+    font-size: var(--scale-body);
+    padding: 2rem;
+}
+
+.grid-item-3 {
+    grid-column: span 2;
+    grid-row: span 2;
+    z-index: 1;
+}
+
+.grid-item-4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.clouds {
+    z-index: 2;
+    margin-top: -12rem;
+    width: 100%;
+    max-width: 100vw;
+    border-radius: 0 0 1rem 1rem;
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, white 40%);
+    mask-image: linear-gradient(to top, transparent 0%, white 40%);
+}
+
+
+.me {
+    height: 125%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: 2;
+}

@@ -1,0 +1,8 @@
+:root {
+    --color-black: #171717;
+    --color-gray: #A1A1A1;
+    --color-primary-blue: #4EA9FF;
+
+    --scale: clamp(1rem, 2vw, 1.5rem);
+    --scale-body: clamp(1rem, 1.2vw, 1.5rem);
+}

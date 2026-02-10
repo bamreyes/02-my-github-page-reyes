@@ -1,0 +1,10 @@
+@import url('general-sans.css');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import "animation.css";
+@import "variables.css";
+@import "base.css";
+@import "navbar.css";
+@import "header.css";
+@import "hero.css";
+@import "about.css";
+@import "projects.css";
