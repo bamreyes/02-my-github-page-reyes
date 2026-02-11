@@ -48,6 +48,14 @@
     z-index: 1;
 }
 
+.project-1:hover {
+    transform: scale(1.15) translateX(2rem);
+}
+
+.project-3:hover {
+    transform: scale(1.15) translateX(-2rem);
+}
+
 .project-2 {
     background: var(--color-black);
     transform: scale(1.15);
