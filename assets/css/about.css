@@ -39,7 +39,7 @@
 
 .about-text {
     font-size: calc(var(--scale) * 2.5);
-    margin-top: -2rem;
+    margin-top: -4rem;
     padding: 0 6rem;
 }
 
@@ -95,13 +95,20 @@
     grid-column: span 4;
     grid-row: span 2;
     font-size: var(--scale-body);
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .grid-item-3 {
     grid-column: span 2;
     grid-row: span 2;
     z-index: 1;
+    font-size: calc(var(--scale-body));
+    padding: 2rem 2rem;
+    align-items: flex-start;
+}
+
+.grid-item-4 img {
+    width: 110%;
 }
 
 .grid-item-4 {
@@ -126,6 +133,11 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.me:hover {
+.recorder {
+    transition: transform 0.5s ease-in-out;
+}
+
+.me:hover, .recorder:hover {
     transform: scale(1.05);
 }
+

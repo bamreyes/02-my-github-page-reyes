@@ -105,11 +105,11 @@
     gap: 0.75rem;
 }
 
-.project-card-logo {
+.project-card-logo img {
+    display: flex;
+    align-items: center;
     width: 2rem;
     height: 2rem;
-    background: var(--color-primary-blue);
-    border-radius: 1rem;
     flex-shrink: 0; 
 }
 
@@ -124,7 +124,7 @@
 }
 
 .project-card-description {
-    padding: 0 calc(var(--scale)*1);
+    padding: 0 calc(var(--scale)*0.25);
     color: #b0b0b0;
     font-family: GeneralSans-Medium;
     font-size: calc(var(--scale)*0.6);

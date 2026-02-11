@@ -20,10 +20,10 @@
     padding: 0.5rem 2rem 0.5rem 0.5rem;
 }
 
-.square {
+.navbar-profile img {
     width: 5rem;
     height: 5rem;
-    background-color: var(--color-gray);
+    background-color: #e6e6e680;
     border-radius: 0.75rem;
     flex-shrink: 0;
 }
