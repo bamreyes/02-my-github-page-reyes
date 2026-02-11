@@ -1,3 +1,40 @@
 .footer {
-    padding: 2rem 3rem;
+    padding: 4rem 2rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-logo img {
+    height: 3rem;
+}
+
+.footer-tagline {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.footer-links .footer-icons {
+    height: 1rem;
+    width: 1rem;
+}
+
+.footer-email a {
+    font-family: GeneralSans-Semibold;
 }
