@@ -1,0 +1,60 @@
+.skills {
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    padding-top: 5rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+.skills-title-main {
+    font-family: Imperial Script;
+    font-size: calc(var(--scale) * 4);
+}
+
+.skills-title-sub {
+    font-family: GeneralSans-Medium;
+    font-size: calc(var(--scale) * 1);
+    margin-top: -1.5rem;
+}
+
+.skills-grid {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.skills-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+}
+
+.skills-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    cursor: pointer;
+    padding: 4rem 6rem;
+    transition: background 0.3s ease;
+}
+
+.skills-icon svg {
+    height: 4rem;
+    object-fit: contain;
+    fill: white;
+}
+
+.skills-icon:hover {
+    background: var(--color-primary-blue);
+}
