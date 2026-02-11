@@ -1,0 +1,82 @@
+.hero,
+.skills {
+    position: relative;
+    overflow: hidden;
+}
+
+.flowers {
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    overflow: none;
+}
+
+.near {
+    width: 12rem;
+    height: 12rem;
+    filter: blur(0.5px);
+}
+
+.medium {
+    width: 8rem;
+    height: 8rem;
+    filter: blur(2px);
+}
+
+.far {
+    width: 4rem;
+    height: 4rem;
+    filter: blur(3px);
+}
+
+.flower {
+    position: absolute;
+}
+
+.flower-1 {
+    top: 20%;
+    left: 8%;
+    animation: float-2 8s ease-in-out infinite;
+}
+
+.flower-2 {
+    top: 15%;
+    right: 12%;
+    animation: float-2 10s ease-in-out infinite 1s;
+}
+
+.flower-3 {
+    top: 55%;
+    left: 5%;
+    animation: float-2 9s ease-in-out infinite 2.5s;
+}
+
+.flower-4 {
+    top: 50%;
+    right: 3%;
+    animation: float-2 11s ease-in-out infinite 3s;
+}
+
+.flower-5 {
+    bottom: 10%;
+    left: 15%;
+    animation: float-2 7s ease-in-out infinite 1.5s;
+}
+
+.flower-6 {
+    bottom: 14%;
+    right: 18%;
+    animation: float-2 12s ease-in-out infinite 2.5s;
+}
+
+.flower-7 {
+    top: 30%;
+    left: 25%;
+    animation: float-2 9.5s ease-in-out infinite 3.5s;
+}
+
+.flower-8 {
+    top: 30%;
+    right: 22%;
+    animation: float-2 10.5s ease-in-out infinite 4s;
+}
